@@ -403,7 +403,6 @@ export default class TextField extends PureComponent {
 
     let inputStyle = {
       fontSize,
-      textAlign,
 
       color: (disabled || defaultVisible)?
         baseColor:
